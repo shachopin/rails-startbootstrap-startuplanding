@@ -41,6 +41,10 @@
       ga('send', 'pageview');
     </script>
 
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript" src="https://ss.sharethis.com/loader.js"></script>
+
 </head>
 
 <body id="page-top" class="index">
@@ -466,7 +470,12 @@
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        <!--li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li-->
+                        <li>
+                            <%=link_to "https://www.facebook.com/dawei.dai.9" do %>
+                                <i class="fa fa-facebook"></i>
+                            <% end %>
                         </li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
@@ -671,6 +680,13 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="/app1/js/agency.js"></script>
+
+    <script type="text/javascript">stLight.options({publisher: "ur-923aedad-968f-5343-4235-4e1c4a3f368f", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+    <script>
+    var options={ "publisher": "ur-923aedad-968f-5343-4235-4e1c4a3f368f", "position": "right", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "googleplus", "pinterest"]}};
+    var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+    </script>
+
 
 </body>
 
